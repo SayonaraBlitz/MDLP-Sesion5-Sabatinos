@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Página-1" id="Kaxnxg1a_uTnRBEVZ3Yk">
+    <mxGraphModel dx="521" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-1" target="eTR_ZK3d9OrqBiENSfCw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.502;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-4" target="eTR_ZK3d9OrqBiENSfCw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-4" value="&quot;Ingrese dos números positivos (a y b):&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-6" target="eTR_ZK3d9OrqBiENSfCw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-6" value="Leer a, b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-11" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-8" target="eTR_ZK3d9OrqBiENSfCw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-8" target="eTR_ZK3d9OrqBiENSfCw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-8" value="b&amp;nbsp;≠ 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-10" target="eTR_ZK3d9OrqBiENSfCw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-10" value="Resto = a mod b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-12" target="eTR_ZK3d9OrqBiENSfCw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-12" value="a = b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-14" value="b = Resto" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="640" as="sourcePoint" />
+            <mxPoint x="270" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="560" />
+              <mxPoint x="190" y="560" />
+              <mxPoint x="190" y="300" />
+              <mxPoint x="190" y="240" />
+              <mxPoint x="240" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTR_ZK3d9OrqBiENSfCw-17" target="eTR_ZK3d9OrqBiENSfCw-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="570" />
+              <mxPoint x="270" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-17" value="Escribir &quot;El MCD es&quot;, a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTR_ZK3d9OrqBiENSfCw-19" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

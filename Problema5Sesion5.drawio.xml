@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Página-1" id="SMIZGi9y2RxmoNQZPNjM">
+    <mxGraphModel dx="555" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-1" target="ajPPT_9m-SKCkHQAmmG4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-2" target="ajPPT_9m-SKCkHQAmmG4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-2" value="Leer a, b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-4" target="ajPPT_9m-SKCkHQAmmG4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-4" value="Inicializar Resultado = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="153.75" y="170" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-6" target="ajPPT_9m-SKCkHQAmmG4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-6" value="Inicializar Contador = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-11" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-8" target="ajPPT_9m-SKCkHQAmmG4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-8" target="ajPPT_9m-SKCkHQAmmG4-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="355" />
+              <mxPoint x="330" y="610" />
+              <mxPoint x="235" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-8" value="Contador&amp;nbsp;≤ b" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="310" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-10" target="ajPPT_9m-SKCkHQAmmG4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-10" value="Resultado = Resultado * a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-12" value="Incrementar contador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-12" target="ajPPT_9m-SKCkHQAmmG4-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="650" as="sourcePoint" />
+            <mxPoint x="140" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="590" />
+              <mxPoint x="130" y="590" />
+              <mxPoint x="130" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ajPPT_9m-SKCkHQAmmG4-15" target="ajPPT_9m-SKCkHQAmmG4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-15" value="Escribir &quot;El resultado de&quot;, a, &quot;^&quot;, b, &quot;es:&quot;, Resultado" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajPPT_9m-SKCkHQAmmG4-17" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="730" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

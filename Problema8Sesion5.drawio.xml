@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Página-1" id="AmCxMoipox8t7VMvxec8">
+    <mxGraphModel dx="521" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.488;exitY=0.885;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-9" target="haJx3GMllS3Zd0UhtmRm-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="100" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-2" target="haJx3GMllS3Zd0UhtmRm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-2" value="Leer N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="270" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-4" target="haJx3GMllS3Zd0UhtmRm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-28" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-4" target="haJx3GMllS3Zd0UhtmRm-27">
+          <mxGeometry x="0.6119" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-4" value="N == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-6" target="haJx3GMllS3Zd0UhtmRm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-6" value="Inicializar Binario = N" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-1" target="haJx3GMllS3Zd0UhtmRm-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="sourcePoint" />
+            <mxPoint x="250" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-9" value="&quot;Ingrese un número decimal positivo:&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-21" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="haJx3GMllS3Zd0UhtmRm-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-10" value="N &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="840" />
+              <mxPoint x="250" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-12" value="Escribir &quot;El número en binario es&quot;, Binario" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-20" target="haJx3GMllS3Zd0UhtmRm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-20" value="Residuo = N mod 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-22" target="haJx3GMllS3Zd0UhtmRm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-22" value="Binario = Convertir (Residuo) + Binario" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-24" value="N = N div 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="765" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-24" target="haJx3GMllS3Zd0UhtmRm-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="870" as="sourcePoint" />
+            <mxPoint x="160" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="820" />
+              <mxPoint x="170" y="820" />
+              <mxPoint x="170" y="680" />
+              <mxPoint x="170" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-27" value="Escribir &quot;El número en binario es 0&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="haJx3GMllS3Zd0UhtmRm-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="390" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-30" value="No" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="haJx3GMllS3Zd0UhtmRm-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-31" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="870" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.03;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-27" target="haJx3GMllS3Zd0UhtmRm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="690" as="sourcePoint" />
+            <mxPoint x="590" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-36" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="haJx3GMllS3Zd0UhtmRm-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.47;exitY=0.82;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="haJx3GMllS3Zd0UhtmRm-31" target="haJx3GMllS3Zd0UhtmRm-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="990" as="sourcePoint" />
+            <mxPoint x="380" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
